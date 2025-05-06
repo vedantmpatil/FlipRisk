@@ -8,7 +8,7 @@ import io
 
 # Streamlit UI Setup
 st.set_page_config(page_title="Financial Risk Analyzer MVP", layout="wide")
-st.title("📊 Flip Risk")
+st.title("📊 FlipRisk")
 
 # API key input (optional: you can hardcode below if you prefer)
 api_key = st.text_input("Enter your OpenAI API Key", type="password")
